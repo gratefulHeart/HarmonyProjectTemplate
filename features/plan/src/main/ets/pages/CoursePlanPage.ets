@@ -1,4 +1,3 @@
-import { AdvancedCourse, HotCourse } from 'course';
 import { RouterMap, RouterUtils } from 'lib_common';
 import { NavHeaderBar } from 'lib_widget';
 
@@ -20,8 +19,6 @@ struct CoursePlanPage {
 
         Scroll(this.scroller) {
           Column() {
-            HotCourse()
-
             Row() {
               Image($r('app.media.advancedCourse1'))
                 .width(96)
@@ -32,7 +29,7 @@ struct CoursePlanPage {
                   .fontWeight(FontWeight.Medium)
                   .fontSize($r('sys.float.Body_L'))
                   .height(42)
-                  .margin({ bottom:2 })
+                  .margin({ bottom: 2 })
                 Row() {
                   Text('难度：高级')
                     .fontWeight(FontWeight.Medium)
@@ -55,7 +52,7 @@ struct CoursePlanPage {
               .padding({ top: 16, bottom: 16 })
             }
             .width(304)
-            .onClick(() => RouterUtils.pushPathByName(RouterMap.COURSE_DETAIL_PAGE, '0011'))
+            .onClick(() => RouterUtils.pushPathByName(RouterMap.COURSE_PAGE, '0011'))
 
             Row() {
               Image($r('app.media.advancedCourse2'))
@@ -63,11 +60,11 @@ struct CoursePlanPage {
                 .height(54)
                 .margin({ top: 19, right: 12 })
               Column() {
-                Text('哑铃练手臂“21响礼炮”')
+                Text('哑铃练手臂「21响礼炮」')
                   .fontWeight(FontWeight.Medium)
                   .fontSize($r('sys.float.Body_L'))
                   .height(42)
-                  .margin({ bottom:2 })
+                  .margin({ bottom: 2 })
                 Row() {
                   Text('难度：高级')
                     .fontWeight(FontWeight.Medium)
@@ -90,7 +87,7 @@ struct CoursePlanPage {
               .padding({ top: 16, bottom: 16 })
             }
             .width(304)
-            .onClick(() => RouterUtils.pushPathByName(RouterMap.COURSE_DETAIL_PAGE, '0006'))
+            .onClick(() => RouterUtils.pushPathByName(RouterMap.COURSE_PAGE, '0006'))
 
             Row() {
               Image($r('app.media.advancedCourse3'))
@@ -102,7 +99,7 @@ struct CoursePlanPage {
                   .fontWeight(FontWeight.Medium)
                   .fontSize($r('sys.float.Body_L'))
                   .height(42)
-                  .margin({ bottom:2 })
+                  .margin({ bottom: 2 })
                 Row() {
                   Text('难度：高级')
                     .fontWeight(FontWeight.Medium)
@@ -125,7 +122,7 @@ struct CoursePlanPage {
               .padding({ top: 16, bottom: 16 })
             }
             .width(304)
-            .onClick(() => RouterUtils.pushPathByName(RouterMap.COURSE_DETAIL_PAGE, '0010'))
+            .onClick(() => RouterUtils.pushPathByName(RouterMap.COURSE_PAGE, '0010'))
 
             Row() {
               Image($r('app.media.advancedCourse4'))
@@ -137,7 +134,7 @@ struct CoursePlanPage {
                   .fontWeight(FontWeight.Medium)
                   .fontSize($r('sys.float.Body_L'))
                   .height(42)
-                  .margin({ bottom:2 })
+                  .margin({ bottom: 2 })
                 Row() {
                   Text('难度：零基础')
                     .fontWeight(FontWeight.Medium)
@@ -160,7 +157,7 @@ struct CoursePlanPage {
               .padding({ top: 16, bottom: 16 })
             }
             .width(304)
-            .onClick(() => RouterUtils.pushPathByName(RouterMap.COURSE_DETAIL_PAGE, '0007'))
+            .onClick(() => RouterUtils.pushPathByName(RouterMap.COURSE_PAGE, '0007'))
 
             Row() {
               Image($r('app.media.advancedCourse5'))
@@ -172,7 +169,7 @@ struct CoursePlanPage {
                   .fontWeight(FontWeight.Medium)
                   .fontSize($r('sys.float.Body_L'))
                   .height(42)
-                  .margin({ bottom:2 })
+                  .margin({ bottom: 2 })
                 Row() {
                   Text('难度：初级')
                     .fontWeight(FontWeight.Medium)
@@ -195,7 +192,7 @@ struct CoursePlanPage {
               .padding({ top: 16, bottom: 16 })
             }
             .width(304)
-            .onClick(() => RouterUtils.pushPathByName(RouterMap.COURSE_DETAIL_PAGE, '0009'))
+            .onClick(() => RouterUtils.pushPathByName(RouterMap.COURSE_PAGE, '0009'))
 
             Row() {
               Image($r('app.media.advancedCourse6'))
@@ -207,7 +204,7 @@ struct CoursePlanPage {
                   .fontWeight(FontWeight.Medium)
                   .fontSize($r('sys.float.Body_L'))
                   .height(42)
-                  .margin({ bottom:2 })
+                  .margin({ bottom: 2 })
                 Row() {
                   Text('难度：零基础')
                     .fontWeight(FontWeight.Medium)
@@ -230,7 +227,7 @@ struct CoursePlanPage {
               .padding({ top: 16, bottom: 16 })
             }
             .width(304)
-            .onClick(() => RouterUtils.pushPathByName(RouterMap.COURSE_DETAIL_PAGE, '0008'))
+            .onClick(() => RouterUtils.pushPathByName(RouterMap.COURSE_PAGE, '0008'))
           }
           .width('100%')
           .backgroundColor(Color.White)

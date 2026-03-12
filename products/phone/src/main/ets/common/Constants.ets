@@ -37,21 +37,16 @@ export const TABS_INFO: TabBarItem[] = [
 ]
 
 /**
- * 依赖登录的页面
+ * 依赖登录的页面列表
+ * 模板保留示例配置，可根据实际项目需求添加
  */
 export const REQUIRE_LOGIN_PAGE_LIST: RouterMap[] = [
-  RouterMap.MINE_MARK_PAGE,
-  RouterMap.FEEDBACK_PAGE,
-  RouterMap.MINE_HISTORY_PAGE,
-  RouterMap.VIP_PAGE,
-  RouterMap.RECORD_PAGE
+  // 示例：RouterMap.MINE_SETTINGS_PAGE,
 ];
 
 export const agreePrivacyKey: string = 'isAgreePrivacy';
 
 export const SOURCE_FORM_CARD: string = 'FormCard';
-
-export const skipGuide: string = 'isSkipGuide';
 
 export class PhoneConstants {
   static readonly LEFT_TAB_BAR_WIDTH: number = 96;

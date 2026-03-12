@@ -61,28 +61,7 @@ export struct CourseItemComponent {
       .padding({ left: 12, top: 16 })
     }
     .onClick(() => {
-      switch (this.courseId) {
-        case '0012':
-          RouterUtils.pushPathByName(RouterMap.COMMON_KNOWLEDGE_ACTIVATE, '01');
-          break;
-        case '0013':
-          RouterUtils.pushPathByName(RouterMap.COMMON_KNOWLEDGE_DRAW, '02');
-          break;
-        case '0014':
-          RouterUtils.pushPathByName(RouterMap.COMMON_KNOWLEDGE_EQUIP, '03');
-          break;
-        case '0015':
-          RouterUtils.pushPathByName(RouterMap.COMMON_KNOWLEDGE_STRAIN, '04');
-          break;
-        case '0016':
-          RouterUtils.pushPathByName(RouterMap.COMMON_KNOWLEDGE_WARM, '05');
-          break;
-        case '0017':
-          RouterUtils.pushPathByName(RouterMap.COMMON_KNOWLEDGE_YOGA, '06');
-          break;
-        default:
-          RouterUtils.pushPathByName(RouterMap.COURSE_DETAIL_PAGE, this.courseId)
-      }
+      RouterUtils.pushPathByName(RouterMap.COURSE_PAGE, this.courseId)
     })
     .width('100%')
     .height(92)

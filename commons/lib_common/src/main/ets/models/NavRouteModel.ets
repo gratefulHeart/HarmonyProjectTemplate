@@ -10,6 +10,6 @@ export class NavRouteModel {
   @Trace navDestinationUpdateListeners: Map<string, (info: uiObserver.NavDestinationInfo) => void> = new Map();
   // 跳转页面时，需要暂停视频播放的页面
   @Trace videoPauseByRoutePage: ResourceStr[] = [
-    RouterMap.COURSE_SEARCH,
+    RouterMap.COURSE_PAGE,
   ]
 }

@@ -80,10 +80,9 @@ export class SettingViewModel extends BaseViewModel {
   @Trace list1: SettingItem[] = [
     new SettingItem({
       label: '个人信息',
-      routerName: RouterMap.SETTING_PERSONAL,
       onClick: () => {
         if (this.userInfoModel.isLogin) {
-          RouterUtils.pushPathByName(RouterMap.SETTING_PERSONAL);
+          promptAction.showToast({ message: '功能开发中' });
         } else {
           promptAction.showToast({ message: '请先登录' });
         }
@@ -91,7 +90,9 @@ export class SettingViewModel extends BaseViewModel {
     }),
     new SettingItem({
       label: '隐私设置',
-      routerName: RouterMap.SETTING_PRIVACY,
+      onClick: () => {
+        promptAction.showToast({ message: '功能开发中' });
+      },
     }),
   ];
   @Trace list2: SettingItem[] = [
@@ -115,7 +116,9 @@ export class SettingViewModel extends BaseViewModel {
     }),
     new SettingItem({
       label: '关于我们',
-      routerName: RouterMap.SETTING_ABOUT,
+      onClick: () => {
+        promptAction.showToast({ message: '功能开发中' });
+      },
     }),
   ];
 

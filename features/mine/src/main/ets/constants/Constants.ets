@@ -5,12 +5,12 @@ export const mineGridList: MineGridItem[] = [
   {
     icon: $r('app.media.ic_grid_star'),
     label: '我的收藏',
-    routerName: RouterMap.MINE_MARK_PAGE,
+    routerName: RouterMap.MINE_PAGE,
   },
   {
     icon: $r('app.media.ic_grid_trace'),
     label: '我的足迹',
-    routerName: RouterMap.MINE_HISTORY_PAGE,
+    routerName: RouterMap.MINE_PAGE,
   },
   {
     icon: $r('app.media.ic_grid_public'),

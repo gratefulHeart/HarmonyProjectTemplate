@@ -1,5 +1,5 @@
 import { CommonConstants, PreferenceUtils, RouterMap, RouterUtils } from 'lib_common';
-import { agreePrivacyKey, skipGuide } from '../common/Constants';
+import { agreePrivacyKey } from '../common/Constants';
 
 @Builder
 export function StartPageBuilder() {
@@ -12,21 +12,13 @@ struct StartPage {
     return PreferenceUtils.getInstance().get(agreePrivacyKey) as boolean;
   }
 
-  isSkipGuide() {
-    return PreferenceUtils.getInstance().get(skipGuide) as boolean;
-  }
-
   aboutToAppear(): void {
     setTimeout(() => {
       if (this.isAgreePrivacy()) {
-        if (this.isSkipGuide()) {
-          const targetPage = RouterMap.INDEX_PAGE;
-          RouterUtils.replacePathByName(targetPage);
-        } else {
-          const targetPage1 = RouterMap.GUIDE_PAGE_Gender;
-          RouterUtils.replacePathByName(targetPage1);
-        }
+        // 已同意隐私协议，直接跳转到 Tab 首页
+        RouterUtils.replacePathByName(RouterMap.INDEX_PAGE);
       } else {
+        // 未同意隐私协议，跳转到安全协议页
         RouterUtils.replacePathByName(RouterMap.SAFE_PAGE);
       }
     }, 500)
@@ -41,12 +33,12 @@ struct StartPage {
             .height(116)
             .draggable(false)
             .margin({ top: 215, bottom: 258 })
-          Text('运动健身模板')
+          Text('应用名称')
             .fontSize($r('sys.float.Title_M'))
             .fontWeight(FontWeight.Medium)
             .fontColor('rgb(92, 121, 217)')
             .height(32)
-          Text('运动带来健康')
+          Text('应用 slogan')
             .fontSize($r('sys.float.Body_L'))
             .fontWeight(FontWeight.Regular)
             .fontColor('rgba(92, 121, 217, 0.8)')
