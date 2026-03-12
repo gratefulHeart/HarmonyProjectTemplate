@@ -1,3 +1,7 @@
+/**
+ * 模板 Mock 示例数据
+ * 可根据实际业务需求修改或替换
+ */
 import dayjs from 'dayjs';
 import { Course, CourseCatalog } from '../../types/Course';
 import { CommonContent, Course1, CourseCatalog1, CourseContent } from '../../types/Course1';

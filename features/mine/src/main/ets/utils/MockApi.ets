@@ -1,21 +1,11 @@
-import { OrderInfoUtil } from './OrderInfoUtil';
-
 export class MockApi {
   static isShow: boolean = false;
 
   static WX_APP_ID: string = 'wx05b3e2e9fc730840';
 
   static getAliPreOrderInfo() {
-    // 支付宝预下单
-    return new Promise<string>((resolve, reject) => {
-      try {
-        OrderInfoUtil.getOrderInfo().then((result) => {
-          resolve(result);
-        });
-      } catch (error) {
-        reject('');
-      }
-    });
+    // 支付宝预下单 mock 示例
+    return Promise.resolve('mock_alipay_order_info');
   }
 
   static getHuaweiOrderInfo() {

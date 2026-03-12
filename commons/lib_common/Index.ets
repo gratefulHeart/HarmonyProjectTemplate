@@ -82,8 +82,6 @@ export { NetworkUtil } from './src/main/ets/utils/NetworkUtil';
 
 export { SystemBarOperation } from './src/main/ets/utils/SystemBarOperation';
 
-export { RouterModule } from './src/main/ets/utils/RouterModule';
-
 // dialogs
 export { CommonConfirmDialog, IConfirmDialogParams } from './src/main/ets/dialogs/CommonConfirmDialog';
 
