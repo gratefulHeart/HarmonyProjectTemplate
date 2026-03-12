@@ -9,8 +9,6 @@
     "lib_api": "file:../../commons/lib_api",
     "lib_common": "file:../../commons/lib_common",
     "lib_widget": "file:../../commons/lib_widget",
-    "module_chart": "file:../../components/module_chart",
-    'aggregated_payment': "file:../../components/aggregated_payment",
-    "@cashier_alipay/cashiersdk": "file:../../components/aggregated_payment/libs/swallow_alipay_sdk"
+    "module_chart": "file:../../components/module_chart"
   }
 }

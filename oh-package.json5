@@ -4,8 +4,7 @@
   "dependencies": {
     "dayjs": "^1.11.13",
     "lunar": "^1.0.0",
-    "@hw-agconnect/ui-video": "^1.0.0",
-    "aggregated_payment": "file:./components/aggregated_payment"
+    "@hw-agconnect/ui-video": "^1.0.0"
   },
   "devDependencies": {
     "@tencent/wechat_open_sdk": "1.0.3",

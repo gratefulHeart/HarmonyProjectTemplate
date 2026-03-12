@@ -110,10 +110,6 @@
     {
       "name": "module_player",
       "srcPath": "./components/module_player"
-    },
-    {
-      "name": "aggregated_payment",
-      "srcPath": "./components/aggregated_payment"
     }
   ]
 }
