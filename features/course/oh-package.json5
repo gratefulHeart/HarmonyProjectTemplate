@@ -12,7 +12,6 @@
     "lib_api": 'file:../../commons/lib_api',
     "module_search": 'file:../../components/module_search',
     "module_player": 'file:../../components/module_player',
-    "mine": 'file:../../features/mine',
-    "@hw-agconnect/ui-video": ''
+    "mine": 'file:../../features/mine'
   }
 }
