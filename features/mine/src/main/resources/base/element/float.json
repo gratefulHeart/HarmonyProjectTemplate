@@ -1,0 +1,20 @@
+{
+  "float": [
+    {
+      "name": "icon_vip",
+      "value": "32vp"
+    },
+    {
+      "name": "ic_vip",
+      "value": "20vp"
+    },
+    {
+      "name": "user_icon_width",
+      "value": "48vp"
+    },
+    {
+      "name": "page_text_font_size",
+      "value": "50fp"
+    }
+  ]
+}

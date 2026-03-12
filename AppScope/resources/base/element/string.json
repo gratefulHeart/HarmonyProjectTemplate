@@ -1,0 +1,23 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "ExerciseAndFitness",
+      "attr": {
+        "translatable": false
+      }
+    },
+    {
+      "name": "agcit_huawei_exercise_and_fitness",
+      "value": "1.0.0"
+    },
+    {
+      "name": "agcittype_huawei_exercise_and_fitness",
+      "value": "industryTemplate"
+    },
+    {
+      "name": "agcitkid_huawei_exercise_and_fitness",
+      "value": "agcit_huawei_common_payment/1.0.0,agcit_huawei_money_track_bill_chart/1.0.0,agcit_huawei_common_feedback/1.0.0,agcit_huawei_comprehensive_news_module_imagepreview/1.0.0,agcit_huawei_course_recorded_player/1.0.0,agcit_huawei_common_search/1.0.0,agcit_huawei_comprehensive_news_module_transition/1.0.0"
+    }
+  ]
+}

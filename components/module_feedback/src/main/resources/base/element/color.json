@@ -1,0 +1,16 @@
+{
+  "color": [
+    {
+      "name": "app_theme",
+      "value": "#F9A01E"
+    },
+    {
+      "name": "privacy_link",
+      "value": "#4B5CC4"
+    },
+    {
+      "name": "mine_drive_color",
+      "value": "#ffe9f0f0"
+    }
+  ]
+}

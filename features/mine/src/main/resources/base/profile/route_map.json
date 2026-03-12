@@ -1,0 +1,29 @@
+{
+  "routerMap": [
+    {
+      "name": "HistoryPage",
+      "pageSourceFile": "src/main/ets/pages/HistoryPage.ets",
+      "buildFunction": "HistoryPageBuilder"
+    },
+    {
+      "name": "MarkPage",
+      "pageSourceFile": "src/main/ets/pages/MarkPage.ets",
+      "buildFunction": "MarkPageBuilder"
+    },
+    {
+      "name": "MinePage",
+      "pageSourceFile": "src/main/ets/pages/MinePage.ets",
+      "buildFunction": "MinePageBuilder"
+    },
+    {
+      "name": "RecordPage",
+      "pageSourceFile": "src/main/ets/pages/RecordPage.ets",
+      "buildFunction": "RecordPageBuilder"
+    },
+    {
+      "name": "VIPPage",
+      "pageSourceFile": "src/main/ets/pages/VIPPage.ets",
+      "buildFunction": "VIPPageBuilder"
+    }
+  ]
+}

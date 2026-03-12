@@ -1,0 +1,9 @@
+{
+  "module": {
+    "name": "module_player",
+    "type": "har",
+    "deviceTypes": [
+      "default"
+    ]
+  }
+}

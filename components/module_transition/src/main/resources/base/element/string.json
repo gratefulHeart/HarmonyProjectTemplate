@@ -1,0 +1,19 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from package",
+      "attr": {
+        "translatable": false
+      }
+    },
+    {
+      "name": "agcit_huawei_comprehensive_news_module_transition",
+      "value": "1.0.0"
+    },
+    {
+      "name": "agcittype_huawei_comprehensive_news_module_transition",
+      "value": "serviceComponent"
+    }
+  ]
+}

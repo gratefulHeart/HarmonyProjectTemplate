@@ -1,0 +1,119 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/zhushijie/.ohos/config/default_ExerciseAndFitness1.0.0_syx0YrY40uX5M02iL9wdeHmf1xiKPHEVrweWOJiizWg=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001AED3D91654094068EBFF037F52BF8F57D092A8084652012E13F19FF892F2433BE179A9DDA08C0",
+          "profile": "/Users/zhushijie/.ohos/config/default_ExerciseAndFitness1.0.0_syx0YrY40uX5M02iL9wdeHmf1xiKPHEVrweWOJiizWg=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/zhushijie/.ohos/config/default_ExerciseAndFitness1.0.0_syx0YrY40uX5M02iL9wdeHmf1xiKPHEVrweWOJiizWg=.p12",
+          "storePassword": "0000001A92BED76CE62D8EE5F6C4F1F4D2AC08B2E063C40EF6A21E898B9A011487A9673B25D460A7B1E9"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.3(15)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "phone",
+      "srcPath": "./products/phone",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "srcPath": "./features/home"
+    },
+    {
+      "name": "course",
+      "srcPath": "./features/course"
+    },
+    {
+      "name": "plan",
+      "srcPath": "./features/plan"
+    },
+    {
+      "name": "mine",
+      "srcPath": "./features/mine"
+    },
+    {
+      "name": "lib_common",
+      "srcPath": "./commons/lib_common"
+    },
+    {
+      "name": "lib_widget",
+      "srcPath": "./commons/lib_widget"
+    },
+    {
+      "name": "module_transition",
+      "srcPath": "./components/module_transition"
+    },
+    {
+      "name": "lib_account",
+      "srcPath": "./commons/lib_account"
+    },
+    {
+      "name": "setting",
+      "srcPath": "./features/setting"
+    },
+    {
+      "name": "lib_api",
+      "srcPath": "./commons/lib_api"
+    },
+    {
+      "name": "module_feedback",
+      "srcPath": "./components/module_feedback"
+    },
+    {
+      "name": "module_imagepreview",
+      "srcPath": "./components/module_imagepreview"
+    },
+    {
+      "name": "module_chart",
+      "srcPath": "./components/module_chart"
+    },
+    {
+      "name": "module_search",
+      "srcPath": "./components/module_search"
+    },
+    {
+      "name": "module_player",
+      "srcPath": "./components/module_player"
+    },
+    {
+      "name": "aggregated_payment",
+      "srcPath": "./components/aggregated_payment"
+    }
+  ]
+}

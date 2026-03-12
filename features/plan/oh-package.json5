@@ -1,0 +1,13 @@
+{
+  "name": "plan",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "lib_common": "file:../../commons/lib_common",
+    "lib_widget": "file:../../commons/lib_widget",
+    "course": 'file:../../features/course'
+  }
+}

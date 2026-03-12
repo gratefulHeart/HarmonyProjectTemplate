@@ -1,0 +1,12 @@
+{
+  "float": [
+    {
+      "name": "radius_20",
+      "value": "20vp"
+    },
+    {
+      "name": "page_text_font_size",
+      "value": "50fp"
+    }
+  ]
+}

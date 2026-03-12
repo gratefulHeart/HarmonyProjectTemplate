@@ -1,0 +1,74 @@
+{
+  "routerMap": [
+    {
+      "name": "IndexPage",
+      "pageSourceFile": "src/main/ets/pages/IndexPage.ets",
+      "buildFunction": "IndexPageBuilder"
+    },
+    {
+      "name": "SafePage",
+      "pageSourceFile": "src/main/ets/pages/SafePage.ets",
+      "buildFunction": "SafePageBuilder"
+    },
+    {
+      "name": "PrivacyPage",
+      "pageSourceFile": "src/main/ets/pages/PrivacyPage.ets",
+      "buildFunction": "PrivacyPageBuilder"
+    },
+    {
+      "name": "AgreePrivacyPage",
+      "pageSourceFile": "src/main/ets/pages/AgreeDialogPage.ets",
+      "buildFunction": "AgreePrivacyPageBuilder"
+    },
+    {
+      "name": "StartPage",
+      "pageSourceFile": "src/main/ets/pages/StartPage.ets",
+      "buildFunction": "StartPageBuilder"
+    },
+    {
+      "name": "GuidePage_Gender",
+      "pageSourceFile": "src/main/ets/pages/GuidePage_Gender.ets",
+      "buildFunction": "GuidePageGenderBuilder"
+    },
+    {
+      "name": "GuidePage_Age",
+      "pageSourceFile": "src/main/ets/pages/GuidePage_Age.ets",
+      "buildFunction": "GuidePageAgeBuilder"
+    },
+    {
+      "name": "GuidePage_Data",
+      "pageSourceFile": "src/main/ets/pages/GuidePage_Data.ets",
+      "buildFunction": "GuidePageDataBuilder"
+    },
+    {
+      "name": "GuidePage_Target",
+      "pageSourceFile": "src/main/ets/pages/GuidePage_Target.ets",
+      "buildFunction": "GuidePageTargetBuilder"
+    },
+    {
+      "name": "GuidePage_Purpose",
+      "pageSourceFile": "src/main/ets/pages/GuidePage_Purpose.ets",
+      "buildFunction": "GuidePagePurposeBuilder"
+    },
+    {
+      "name": "GuidePage_Body",
+      "pageSourceFile": "src/main/ets/pages/GuidePage_Body.ets",
+      "buildFunction": "GuidePageBodyBuilder"
+    },
+    {
+      "name": "GuidePage_Injury",
+      "pageSourceFile": "src/main/ets/pages/GuidePage_Injury.ets",
+      "buildFunction": "GuidePageInjuryBuilder"
+    },
+    {
+      "name": "GuidePage_Sports",
+      "pageSourceFile": "src/main/ets/pages/GuidePage_Sports.ets",
+      "buildFunction": "GuidePageSportsBuilder"
+    },
+    {
+      "name": "GuidePage_Start",
+      "pageSourceFile": "src/main/ets/pages/GuidePage_Start.ets",
+      "buildFunction": "GuidePageStartBuilder"
+    }
+  ]
+}

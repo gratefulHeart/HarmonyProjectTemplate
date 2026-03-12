@@ -1,0 +1,14 @@
+{
+  "module": {
+    "name": "module_imagepreview",
+    "type": "har",
+    "deviceTypes": [
+      "default"
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+      },
+    ]
+  }
+}

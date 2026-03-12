@@ -1,0 +1,18 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from package",
+      "attr":{
+        "translatable":false
+      }
+    },
+    {
+      "name": "agcit_huawei_ExerciseAndFitness",
+      "value": "1.0.0",
+      "attr":{
+        "translatable":false
+      }
+    }
+  ]
+}

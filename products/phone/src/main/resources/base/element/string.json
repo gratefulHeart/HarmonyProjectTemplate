@@ -1,0 +1,46 @@
+{
+  "string": [
+    {
+      "name": "widget_display_name",
+      "value": "运动健身",
+      "attr":{
+        "translatable":false
+      }
+    },
+    {
+      "name": "widget_desc",
+      "value": "运动健身",
+      "attr":{
+        "translatable":false
+      }
+    },
+    {
+      "name": "module_desc",
+      "value": "运动健身模板",
+      "attr":{
+        "translatable":false
+      }
+    },
+    {
+      "name": "PhoneAbility_desc",
+      "value": "运动健身模板",
+      "attr":{
+        "translatable":false
+      }
+    },
+    {
+      "name": "PhoneAbility_label",
+      "value": "运动健身模板",
+      "attr":{
+        "translatable":false
+      }
+    },
+    {
+      "name": "agcit_huawei_ExerciseAndFitness",
+      "value": "1.0.0",
+      "attr":{
+        "translatable":false
+      }
+    }
+  ]
+}

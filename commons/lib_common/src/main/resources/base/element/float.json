@@ -1,0 +1,40 @@
+{
+  "float": [
+    {
+      "name": "grid_icon_width",
+      "value": "40vp"
+    },
+    {
+      "name": "arrow_right_w",
+      "value": "12vp"
+    },
+    {
+      "name": "large_radius",
+      "value": "16vp"
+    },
+    {
+      "name": "vp_16",
+      "value": "16vp"
+    },
+    {
+      "name": "normal_img_size",
+      "value": "24vp"
+    },
+    {
+      "name": "medium_img_width",
+      "value": "16vp"
+    },
+    {
+      "name": "xxl_radius",
+      "value": "32vp"
+    },
+    {
+      "name": "page_text_font_size",
+      "value": "50fp"
+    },
+    {
+      "name": "vp_56",
+      "value": "56vp"
+    }
+  ]
+}

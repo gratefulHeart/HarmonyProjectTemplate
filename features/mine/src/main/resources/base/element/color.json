@@ -1,0 +1,32 @@
+{
+  "color": [
+    {
+      "name": "mine_background",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "pillow",
+      "value": "#F7CE00"
+    },
+    {
+      "name": "create_VIP",
+      "value": "#E3922F"
+    },
+    {
+      "name": "VIP_back",
+      "value": "#FCF2CC"
+    },
+    {
+      "name": "VIP",
+      "value": "#D17E18"
+    },
+    {
+      "name": "color_1",
+      "value": "#ff0000"
+    },
+    {
+      "name": "mine_drive_color",
+      "value": "#ffe9f0f0"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "routerMap": [
+    {
+      "name": "HomePage",
+      "pageSourceFile": "src/main/ets/pages/HomePage.ets",
+      "buildFunction": "HomePageBuilder"
+    },
+    {
+      "name": "CommonKnowledgePage",
+      "pageSourceFile": "src/main/ets/pages/CommonKnowledgePage.ets",
+      "buildFunction": "CommonKnowledgePageBuilder"
+    },
+    {
+      "name": "CommonKnowledgeDetailPage",
+      "pageSourceFile": "src/main/ets/pages/CommonKnowledgeDetailPage.ets",
+      "buildFunction": "CommonKnowledgeDetailPageBuilder"
+    },
+    {
+      "name": "CommonKnowledgeDrawPage",
+      "pageSourceFile": "src/main/ets/pages/CommonKnowledgeDrawPage.ets",
+      "buildFunction": "CommonKnowledgeDrawPageBuilder"
+    },
+    {
+      "name": "CommonKnowledgeActivatePage",
+      "pageSourceFile": "src/main/ets/pages/CommonKnowledgeActivatePage.ets",
+      "buildFunction": "CommonKnowledgeActivatePageBuilder"
+    },
+    {
+      "name": "CommonKnowledgeEquipPage",
+      "pageSourceFile": "src/main/ets/pages/CommonKnowledgeEquipPage.ets",
+      "buildFunction": "CommonKnowledgeEquipPageBuilder"
+    },
+    {
+      "name": "CommonKnowledgeStrainPage",
+      "pageSourceFile": "src/main/ets/pages/CommonKnowledgeStrainPage.ets",
+      "buildFunction": "CommonKnowledgeStrainPageBuilder"
+    },
+    {
+      "name": "CommonKnowledgeWarmPage",
+      "pageSourceFile": "src/main/ets/pages/CommonKnowledgeWarmPage.ets",
+      "buildFunction": "CommonKnowledgeWarmPageBuilder"
+    },
+    {
+      "name": "CommonKnowledgeYogaPage",
+      "pageSourceFile": "src/main/ets/pages/CommonKnowledgeYogaPage.ets",
+      "buildFunction": "CommonKnowledgeYogaPageBuilder"
+    }
+  ]
+}

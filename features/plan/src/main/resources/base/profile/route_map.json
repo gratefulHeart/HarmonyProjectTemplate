@@ -1,0 +1,19 @@
+{
+  "routerMap": [
+    {
+      "name": "RecommendationCoursePage",
+      "pageSourceFile": "src/main/ets/pages/RecommendationCoursePage.ets",
+      "buildFunction": "RecommendationCoursePageBuilder"
+    },
+    {
+      "name": "PlanPage",
+      "pageSourceFile": "src/main/ets/pages/PlanPage.ets",
+      "buildFunction": "PlanPageBuilder"
+    },
+    {
+      "name": "CoursePlanPage",
+      "pageSourceFile": "src/main/ets/pages/CoursePlanPage.ets",
+      "buildFunction": "CoursePlanPageBuilder"
+    }
+  ]
+}

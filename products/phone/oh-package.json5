@@ -1,0 +1,21 @@
+{
+  "name": "phone",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "lib_account": "file:../../commons/lib_account",
+    "lib_common": "file:../../commons/lib_common",
+    "lib_widget": "file:../../commons/lib_widget",
+    "module_feedback": "file:../../components/module_feedback",
+    "module_transition": "file:../../components/module_transition",
+    "home": "file:../../features/home",
+    "course": "file:../../features/course",
+    "plan": "file:../../features/plan",
+    "mine": "file:../../features/mine",
+    "setting": "file:../../features/setting"
+  }
+}
+

@@ -1,0 +1,39 @@
+{
+  "routerMap": [
+    {
+      "name": "CoursePage",
+      "pageSourceFile": "src/main/ets/pages/CoursePage.ets",
+      "buildFunction": "CoursePageBuilder"
+    },
+    {
+      "name": "HotCoursePage",
+      "pageSourceFile": "src/main/ets/pages/HotCoursePage.ets",
+      "buildFunction": "HotCoursePageBuilder"
+    },
+    {
+      "name": "AdvancedCoursePage",
+      "pageSourceFile": "src/main/ets/pages/AdvancedCoursePage.ets",
+      "buildFunction": "AdvancedCoursePageBuilder"
+    },
+    {
+      "name": "CourseSearch",
+      "pageSourceFile": "src/main/ets/pages/CourseSearch.ets",
+      "buildFunction": "CourseSearchBuilder"
+    },
+    {
+      "name": "FilterPage",
+      "pageSourceFile": "src/main/ets/pages/FilterPage.ets",
+      "buildFunction": "FilterPageBuilder"
+    },
+    {
+      "name": "CoursePlayer",
+      "pageSourceFile": "src/main/ets/pages/CoursePlayer.ets",
+      "buildFunction": "CoursePlayerBuilder"
+    },
+    {
+      "name": "CourseDetailPage",
+      "pageSourceFile": "src/main/ets/pages/CourseDetailPage.ets",
+      "buildFunction": "CourseDetailPageBuilder"
+    }
+  ]
+}
