@@ -22,8 +22,8 @@ HarmonyProjectTemplate/
 │
 ├── features/                   # 功能模块（业务 Feature）
 │   ├── home/                  # Tab1 - 首页
-│   ├── course/                # Tab2 - 课程
-│   ├── plan/                  # Tab3 - 计划
+│   ├── course/                # Tab2 - 发现
+│   ├── plan/                  # Tab3 - 清单
 │   ├── mine/                  # Tab4 - 我的
 │   └── setting/               # 设置模块
 │
@@ -61,8 +61,8 @@ LoginSheetUtils.open();
 ### 3. Tab 结构
 4个 Tab 页面：
 - 首页 (HomePage)
-- 课程 (CoursePage)
-- 计划 (PlanPage)
+- 发现 (CoursePage)
+- 清单 (PlanPage)
 - 我的 (MinePage)
 
 ### 4. 路由管理

@@ -21,12 +21,12 @@ export const TABS_INFO: TabBarItem[] = [
   },
   {
     id: TabBarType.COURSE,
-    title: '课程',
+    title: '发现',
     activeIcon: $r('app.media.ic_tab_course'),
   },
   {
     id: TabBarType.PLAN,
-    title: '计划',
+    title: '清单',
     activeIcon: $r('app.media.ic_tab_plan'),
   },
   {

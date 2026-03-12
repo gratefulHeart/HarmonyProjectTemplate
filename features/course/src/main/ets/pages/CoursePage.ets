@@ -11,11 +11,11 @@ export struct CoursePage {
   @Builder
   contentBuilder() {
     Column({ space: 16 }) {
-      Text('课程页内容区域')
+      Text('内容展示区域')
         .fontSize(16)
         .fontColor($r('sys.color.font_secondary'))
 
-      Text('在此添加您的课程业务组件')
+      Text('在此添加业务组件')
         .fontSize(14)
         .fontColor($r('sys.color.font_tertiary'))
     }
@@ -27,7 +27,7 @@ export struct CoursePage {
     NavDestination() {
       Column() {
         NavHeaderBar({
-          title: '课程',
+          title: '发现',
           isSubTitle: false,
         })
 
