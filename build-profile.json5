@@ -1,17 +1,18 @@
 {
   "app": {
+    // 签名配置由 hvigorfile 从 local-signing.json 动态加载，此处仅为占位符
     "signingConfigs": [
       {
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "certpath": "/Users/zhushijie/.ohos/config/default_ExerciseAndFitness1.0.0_syx0YrY40uX5M02iL9wdeHmf1xiKPHEVrweWOJiizWg=.cer",
+          "certpath": "",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001AED3D91654094068EBFF037F52BF8F57D092A8084652012E13F19FF892F2433BE179A9DDA08C0",
-          "profile": "/Users/zhushijie/.ohos/config/default_ExerciseAndFitness1.0.0_syx0YrY40uX5M02iL9wdeHmf1xiKPHEVrweWOJiizWg=.p7b",
+          "keyPassword": "",
+          "profile": "",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "/Users/zhushijie/.ohos/config/default_ExerciseAndFitness1.0.0_syx0YrY40uX5M02iL9wdeHmf1xiKPHEVrweWOJiizWg=.p12",
-          "storePassword": "0000001A92BED76CE62D8EE5F6C4F1F4D2AC08B2E063C40EF6A21E898B9A011487A9673B25D460A7B1E9"
+          "storeFile": "",
+          "storePassword": ""
         }
       }
     ],

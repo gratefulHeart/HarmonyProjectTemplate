@@ -1,0 +1,9 @@
+{
+  "certpath": "你的证书路径，如：/Users/xxx/.ohos/config/xxx.cer",
+  "keyAlias": "debugKey",
+  "keyPassword": "你的keyPassword",
+  "profile": "你的profile路径，如：/Users/xxx/.ohos/config/xxx.p7b",
+  "signAlg": "SHA256withECDSA",
+  "storeFile": "你的storeFile路径，如：/Users/xxx/.ohos/config/xxx.p12",
+  "storePassword": "你的storePassword"
+}
