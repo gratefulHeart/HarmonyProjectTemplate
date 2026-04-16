@@ -2,19 +2,7 @@
   "app": {
     // 签名配置由 hvigorfile 从 local-signing.json 动态加载，此处仅为占位符
     "signingConfigs": [
-      {
-        "name": "default",
-        "type": "HarmonyOS",
-        "material": {
-          "certpath": "",
-          "keyAlias": "debugKey",
-          "keyPassword": "",
-          "profile": "",
-          "signAlg": "SHA256withECDSA",
-          "storeFile": "",
-          "storePassword": ""
-        }
-      }
+      
     ],
     "products": [
       {
@@ -27,7 +15,8 @@
             "caseSensitiveCheck": true,
             "useNormalizedOHMUrl": true
           }
-        }
+        },
+        "targetSdkVersion": "5.0.3(15)"
       }
     ],
     "buildModeSet": [
